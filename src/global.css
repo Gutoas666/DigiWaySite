@@ -1,0 +1,34 @@
+:root {
+    --cor-primaria-clara: #F0F4FF;
+    --cor-primaria-base: #D6E4FF;
+    --cor-primaria-escura: #A8CAFF;
+    --cor-secundaria-clara: #5C2E7C;
+    --cor-secundaria-base: #3D1B54;
+    --cor-secundaria-escura: #1A0F2E;
+    --cor-terciaria-erro: #E63946;
+    --cor-terciaria-fundo: #FAFBFF;
+    --fonte-base: "Figtree", sans-serif;
+    --fonte-logo: "Aldrich", "Merriweather Sans", "Cantarell", sans-serif;
+    --tamanho-pequeno: .75rem;
+    --tamanho-base1: 1rem;
+    --tamanho-base2: 1.3rem;
+    --tamanho-titulo: 2rem; 
+    --tamanho-logo1: 3rem;
+    --tamanho-logo2: 6rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, input, textarea, button {
+    font-family: var(--fonte-base);
+    font-size: var(--tamanho-base1);
+}
+
+h1 {
+    font-family: var(--fonte-base);
+    font-size: var(--tamanho-titulo);
+}

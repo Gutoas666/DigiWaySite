@@ -1,0 +1,28 @@
+.conteiner {
+  background-color: var(--cor-primaria-escura);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  min-height: 72px;
+  padding: 0 1.2rem;
+  font-family: var(--fonte-logo);
+}
+
+.logo {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  object-fit: contain;
+}
+
+.usuario {
+  position: absolute;
+  right: 1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--cor-secundaria-escura);
+  font-size: 0.95rem;
+  text-align: right;
+}

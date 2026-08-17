@@ -1,0 +1,41 @@
+.conteiner {
+  background: linear-gradient(
+    to right,
+    var(--cor-primaria-escura) 0%,
+    var(--cor-terciaria-fundo) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+  font-family: var(--fonte-logo);
+}
+
+.botaoMenu {
+  background: none;
+  border: none;
+  color: var(--cor-secundaria-clara);
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.itemConteiner {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.rotulo {
+  color: var(--cor-secundaria-clara);
+  margin-left: 20px;
+  font-size: 1rem;
+  font-family: var(--fonte-logo);
+}

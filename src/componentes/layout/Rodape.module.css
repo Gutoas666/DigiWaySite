@@ -1,0 +1,15 @@
+.conteiner {
+  background-color: var(--cor-primaria-escura);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  font-family: var(--fonte-logo);
+  min-height: 56px;
+}
+
+.titulo {
+  color: var(--cor-secundaria-escura);
+  font-family: var(--fonte-logo);
+  text-align: center;
+}

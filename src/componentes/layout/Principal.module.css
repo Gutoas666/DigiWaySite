@@ -1,0 +1,35 @@
+.gridConteiner {
+  font-family: var(--fonte-logo);
+  background-color: var(--cor-terciaria-fundo);
+  display: grid;
+  min-height: 100vh;
+  gap: 2px;
+  grid-template-columns: 175px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "lateral conteudo"
+    "rodape rodape";
+}
+
+header {
+  grid-area: cabecalho;
+  font-family: var(--fonte-logo);
+}
+
+aside {
+  grid-area: lateral;
+  font-family: var(--fonte-logo);
+}
+
+main {
+  grid-area: conteudo;
+  font-family: var(--fonte-logo);
+  min-height: 0;
+}
+
+footer {
+  grid-area: rodape;
+  font-family: var(--fonte-logo);
+  min-height: 0;
+}
